@@ -1,36 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Upper HTML Website Template</title>
-<!--
-Upper Template
-http://www.templatemo.com/tm-497-upper
--->
-    <!-- load stylesheets -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  
-    <!-- Google web font "Open Sans" -->
-    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">                
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">                                      
-    <!-- Bootstrap style -->
-    <link rel="stylesheet" href="css/hero-slider-style.css">                              
-    <!-- Hero slider style (https://codyhouse.co/gem/hero-slider/) -->
-    <link rel="stylesheet" href="css/magnific-popup.css">                                 
-    <!-- Magnific popup style (http://dimsemenov.com/plugins/magnific-popup/) -->
-    <link rel="stylesheet" href="css/templatemo-style.css">                                   
-    <!-- Templatemo style -->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-          <![endif]-->
-</head>
+<?php
+include("header.php")
+?>
 
     <body>
         
@@ -411,21 +381,7 @@ http://www.templatemo.com/tm-497-upper
                 </li>
             </ul> <!-- .cd-hero-slider -->
             
-            <footer class="tm-footer">
-            
-                <div class="tm-social-icons-container text-xs-center">
-                    <a href="#" class="tm-social-link"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="tm-social-link"><i class="fa fa-google-plus"></i></a>
-                    <a href="#" class="tm-social-link"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="tm-social-link"><i class="fa fa-behance"></i></a>
-                    <a href="#" class="tm-social-link"><i class="fa fa-linkedin"></i></a>
-                </div>
-                
-                <p class="tm-copyright-text">Copyright &copy; 2016 Your Company 
-                
-                - Design: <a rel="nofollow" href="http://www.templatemo.com/page/1" class="tm-footer-link" target="_parent">Templatemo</a></p>
-
-            </footer>
+            <?php include('footer.php'); ?>
                     
         </div> <!-- .cd-hero -->
         
